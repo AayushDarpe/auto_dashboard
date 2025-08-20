@@ -1,0 +1,50 @@
+🛠️ Steps to Run Auto-Dashboard in Python
+1. Install Python (if not already)
+
+Download and install Python from python.org
+.
+
+Make sure you tick ✅ "Add Python to PATH" during installation.
+
+Check installation in terminal/command prompt:
+
+python --version
+
+2. Install Required Libraries
+
+Open terminal (or Anaconda Prompt if using Anaconda) and run:
+
+pip install streamlit pandas plotly openpyxl
+
+
+streamlit → Web app framework for dashboard
+
+pandas → Data handling
+
+plotly → Charts
+
+openpyxl → Read Excel files
+
+3. Save the Code
+
+Open any editor (VS Code, PyCharm, Notepad++)
+
+Copy the Auto-Dashboard code I gave you
+
+Save as:
+
+auto_dashboard.py
+
+4. Run the Streamlit App
+
+In terminal, go to the folder where you saved the file and run:
+
+streamlit run auto_dashboard.py
+
+5. Upload Dataset
+
+Browser will open at: http://localhost:8501
+
+Upload your CSV or Excel file
+
+Dashboard is generated automatically 🎉
